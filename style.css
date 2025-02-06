@@ -6,24 +6,26 @@
 }
 
 body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, #98D8EF, #2575fc);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    color: white;
+    text-align: center;
 }
 
-/* Container */
+canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .container {
-    text-align: center;
-    width: 90%;
-    max-width: 600px;
+    position: center;
+    z-index: 1;
     padding: 20px;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Header */
