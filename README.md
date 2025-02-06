@@ -1,2 +1,2 @@
-# weather-dashboard
-[Click to check the website](https://sandeshbhattarai.github.io/weather-dashboard/)
+## Live Demo 🌐
+Click [here](https://git07Sandesh.github.io/weather-dashboard/) to view the project.
